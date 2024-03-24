@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot Interaction</title>
+</head>
+<body>
+    <h1>Chatbot Interaction</h1>
+    <form method="post">
+        <input type="text" name="major" placeholder="Major" required>
+        <input type="text" name="location" placeholder="Location" required>
+        <select name="in_or_out" required>
+            <option value="In state">In state</option>
+            <option value="Out-of-state">Out of state</option>
+        </select>
+        <button type="submit">Submit</button>
+    </form>
+    <p>{{ message }}</p>
+</body>
+</html>
